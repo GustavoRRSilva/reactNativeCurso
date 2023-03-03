@@ -7,8 +7,10 @@ export default class App extends React.Component {
   //Abaixo chamamos o header
   render() {
     return (
-      <View style={{ marginTop: 20 }}>
-        <Header/>
+      <View style={{ marginTop: 40 }}>
+        <View>
+          <Header/>
+          </View>
         <Body/>
       </View>
     );
